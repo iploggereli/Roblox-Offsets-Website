@@ -1,7 +1,10 @@
-#pragma once
 
-namespace FFlagOffsets
-{
+
+namespace FFlagOffsets {
+inline std::string ClientVersion = "version-26c90be22e0d4758";
+
+
+namespace FFlagList {
     uintptr_t FFlagList = 0x7723F28;
     uintptr_t ValueGetSet = 0x30;
     uintptr_t FlagToValue = 0xC0;
